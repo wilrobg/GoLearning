@@ -1,3 +1,9 @@
+package main
+
+import (
+	"fmt"
+)
+
 func main() {
 	//Consts declaration
 	const pi float64 = 3.14
@@ -26,5 +32,27 @@ func main() {
 	const baseSquare = 10
 	areaSquare := baseSquare * baseSquare
 
-	fmt.Println("Area Square:", areaCuadrado)
-}```
+	fmt.Println("Area Square:", areaSquare)
+
+	//Sum
+	x := 10
+	y := 10
+	result := x + y
+	fmt.Println("Sum:", result)
+
+	//Substraction
+	result = x - y
+	fmt.Println("Substraction:", result)
+
+	//Multiplication
+	result = x * y
+	fmt.Println("Multiplication:", result)
+
+	//Division
+	result = x / y
+	fmt.Println("Division:", result)
+
+	//Module
+	result = x % y
+	fmt.Println("Module:", result)
+}
