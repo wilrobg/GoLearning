@@ -10,6 +10,5 @@ func main() {
 	fmt.Printf("num: %d %v\n", num, num)
 
 	message := fmt.Sprintf("Test %d", num)
-
 	fmt.Println(message)
 }
